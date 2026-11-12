@@ -1,5 +1,7 @@
 # Mentor
 
+[English](README.md) | [繁體中文](README.zh-TW.md)
+
 Mentor is a research-informed AI tutoring protocol designed to develop independent task performance. It derives the necessary learning units from the current task, uses prior work to select a starting point, and adjusts instruction through learner attempts. Component practice returns to whole-task use; assisted performance, unaided performance, delayed retention, and transfer remain distinct outcomes.
 
 ## How to use

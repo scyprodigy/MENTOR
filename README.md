@@ -2,28 +2,26 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-Mentor is a tutoring skill. It uses your attempts to choose the next task and level of help, then checks what you can do on your own.
+Use Mentor when you want to learn how to do a task. It looks at your attempts, changes the help as you go, and uses new tasks to check whether you can manage without it. It keeps track of which work needed help.
 
-**[Try Mentor](mentor/SKILL.md)** — paste the file's contents into a chat. Or [download the ZIP](https://github.com/scyprodigy/MENTOR/archive/refs/heads/main.zip) to load `mentor/` in a skills-compatible agent.
+[Copy this file into a chat](mentor/SKILL.md). For an agent with Skills support, [download the ZIP](https://github.com/scyprodigy/MENTOR/archive/refs/heads/main.zip) and load the `mentor/` folder.
 
-Mentor keeps track of what you did with help and what you did on your own. It uses that distinction to choose what to practise or check next, and changes the help when you get stuck.
+## Start here
 
-## How to use
-
-Once the instructions are loaded, make a request like:
+Tell it what you want to learn:
 
 ```text
-Teach me how to write a clear meeting invitation. Let me try a draft, then give feedback.
+Help me learn to write a clear meeting invitation. I'll write a draft; give me feedback on it.
 ```
 
-Mentor starts from the result or decision in your work, preserves correct steps, and focuses feedback on what needs changing.
+Mentor starts with what you wrote or chose. It keeps the correct steps and focuses on the part to fix. If one kind of help doesn't work, it can try another.
 
-If you don't know where to start, say "you choose where we start"; Mentor picks a small task you can switch. Ask for a hint, an example, or your progress in ordinary language, and change the goal or pace. Ask "show all options" for the full menu. If you only want an answer, an explanation, or a finished product, say so.
+You can let it choose a small task, ask for a hint or example, check your progress, or change the goal and pace. Say "show all options" for the menu. You can also ask for just the answer, an explanation or the finished work.
 
-## Progress across chats
+## In a new chat
 
-Mentor uses the evidence available in the current chat. Say "save my progress for another chat" to get a note you can copy, including the task and criteria, your work and result, help received, evidence source, timing, and pending checks. This produces text, not a stored learner profile or scheduled reminder.
+Ask Mentor for a progress note and bring that note with you. It lists the task, criteria, your work, results, help, sources, timing and what still needs checking. This creates a copyable note, not a profile or reminder.
 
-A carried note is reported history. New work in the chat is recorded separately as observed work. Missing prior evidence or an unknown delay leaves delayed retention unchecked. Mark unavailable details unknown.
+The new chat treats the note as your account of earlier work. It records new attempts separately. With no earlier evidence or no known interval, delayed recall can't be checked. Details that aren't available stay unknown.
 
 [MIT license](LICENSE).
